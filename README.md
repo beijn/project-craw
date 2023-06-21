@@ -1,12 +1,12 @@
 # CRAW
-## a Compound Reasoning and Referencing Agent on Wikipedia using Langchain
+## A Compound Reasoning and Referencing Agent on Wikipedia using Langchain
 ### A project by Benjamin Eckhardt ([benjamin.eckhardt@stud.unni-goettingen.de](mailto:benjamin.eckhardt@stud.unni-goettingen.de))
 #### for the Spring 2023 "Datathinking in the Era of ChatGPT" lecture by Jaan Altosaar @ University of Tartu
 Editors: GPT-4, Copilot
 
 __code repo link [github.com/beijn/project-craw](https://github.com/beijn/project-craw)__
 
-![pdf](assets/craw-high-level.png)
+![CRAW Algorithm Overview](assets/craw-high-level.png)
 
 To ___get started___ save an _OpenAI API_ key at `secret/openai_api_key`, run `pip install -r requirements.txt` (optionally in a `python -m venv venv; source venv/bin/activate`) and run `python main.py`.
 There is currently no GUI. The progess will be printed to the console and the final result is a recursive tree of questions and answers, reasoning and sources.
