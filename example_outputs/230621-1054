@@ -1,0 +1,46 @@
+Input question: CURRENT QUESTION: What is the density of Carbon?
+QUERRIED text-davinci-003 at decompose with 4000 characters.
+QUERRIED text-davinci-003 at wiki_queries with 1587 characters.
+WIKI QUERRIED for a summary for List of chemical elements.
+WIKI QUERRIED for a summary for Chemical element.
+WIKI QUERRIED for a summary for Carbon nanotube.
+WIKI QUERRIED for a summary for Superdense carbon allotropes.
+WIKI QUERRIED for a summary for Physical change.
+WIKI QUERRIED for a content for List of chemical elements.
+WIKI QUERRIED for a content for Chemical element.
+WIKI QUERRIED for a content for Carbon nanotube.
+QUERRIED text-davinci-003 at answer_atomic with 1891 characters.
+
+
+===== Final Answer Tree =====
+
+{'answer': {'answer': '98.9%',
+            'source': {'metadata': {'source': 'Chemical element'},
+                       'page_content': 'Isotopes are atoms of the same element '
+                                       '(that is, with the same number of '
+                                       'protons in their atomic nucleus), but '
+                                       'having different numbers of neutrons. '
+                                       'Thus, for example, there are three '
+                                       'main isotopes of carbon. All carbon '
+                                       'atoms have 6 protons in the nucleus, '
+                                       'but they can have either 6, 7, or 8 '
+                                       'neutrons. Since the mass numbers of '
+                                       'these are 12, 13 and 14 respectively, '
+                                       'the three isotopes of carbon are known '
+                                       'as carbon-12, carbon-13, and '
+                                       'carbon-14, often abbreviated to 12C, '
+                                       '13C, and 14C. Carbon in everyday life '
+                                       'and in chemistry is a mixture of 12C '
+                                       '(about 98.9%), 13C (about 1.1%) and '
+                                       'about 1 atom per trillion of 14C.\n'
+                                       'Most (66 of 94) naturally occurring '
+                                       'elements have more than one stable '
+                                       'isotope. Except for the isotopes of '
+                                       'hydrogen (which differ greatly from '
+                                       'each other in relative mass—enough to '
+                                       'cause chemical effects), the isotopes '
+                                       'of a given element are chemically '
+                                       'nearly indistinguishable.'}},
+ 'question': {'failed_alternatives': [],
+              'question': 'What is the density of Carbon?'},
+ 'sub_aqs': []}

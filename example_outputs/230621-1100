@@ -1,0 +1,17 @@
+Input question: CURRENT QUESTION: What is (341*67658)+(12345/1356)?
+QUERRIED text-davinci-003 at decompose with 4003 characters.
+QUERRIED text-davinci-003 at wiki_queries with 1590 characters.
+WIKI QUERRIED for a summary for Vedic Mathematics.
+WIKI QUERRIED for a summary for Computer algebra.
+WIKI QUERRIED for a content for Computer algebra.
+WIKI QUERRIED for a content for Vedic Mathematics.
+QUERRIED text-davinci-003 at answer_atomic with 1684 characters.
+QUERRIED text-davinci-003 at answer_atomic with 1967 characters.
+QUERRIED text-davinci-003 at answer_atomic with 1942 characters.
+
+
+===== Final Answer Tree =====
+
+{'answer': 'False',
+ 'question': {'failed_alternatives': [],
+              'question': 'What is (341*67658)+(12345/1356)?'}}
