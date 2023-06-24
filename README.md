@@ -6,7 +6,7 @@ Editors: GPT-4, Copilot
 
 __code repo link [github.com/beijn/project-craw](https://github.com/beijn/project-craw)__
 
-![CRAW Algorithm Overview](assets/craw-high-level.png)
+![CRAW Algorithm Overview](public/craw-flow.png)
 
 To ___get started___ save an _OpenAI API_ key at `secret/openai_api_key`, run `pip install -r requirements.txt` (optionally in a `python -m venv venv; source venv/bin/activate`) and run `python main.py`.
 There is currently no GUI. The progess will be printed to the console and the final result is a recursive tree of questions and answers, reasoning and sources.
@@ -107,11 +107,11 @@ The goal of finding relevant wikipedia article parts that contain answers to the
 
 ### Experiments
 
-The unpredictability is exemplified in `example_outputs/230621-1049` where the model correctly decomposes the question, solves one part (though a bit strangely), but fails on the isomorphic second part.
+The unpredictability is exemplified in `trace/230621-1049` where the model correctly decomposes the question, solves one part (though a bit strangely), but fails on the isomorphic second part.
 
-The working base case is exemplified in `example_outputs/230621-1054` though the Wikpedia Article Search engine could work better and select an article on the chemical element carbon.
+The working base case is exemplified in `trace/230621-1054` though the Wikpedia Article Search engine could work better and select an article on the chemical element carbon.
 
-A pure math example in `example_outputs/230621-1100` illustrates that the decomposition is not working smartly and realiably for complex pure reasoning tasks.
+A pure math example in `trace/230621-1100` illustrates that the decomposition is not working smartly and realiably for complex pure reasoning tasks.
 Also we learn that there is obvously atomic questios that cannot be answered in Wikipedia but by eg. mathematical means. `llmchain`'s `Agent`s have access to different `Tool`s like math from which they can choose to solve a (sub)task. See [Further Directions](#llms-as-agents).
 
 
