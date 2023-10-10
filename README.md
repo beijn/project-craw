@@ -1,6 +1,6 @@
 # CRAW
 ## A Compound Reasoning and Referencing Agent on Wikipedia using Langchain
-### A project by Benjamin Eckhardt ([benjamin.eckhardt@stud.unni-goettingen.de](mailto:benjamin.eckhardt@stud.unni-goettingen.de))
+### A project by Benjamin Eckhardt ([benjamin.eckhardt@stud.unni-goettingen.de](mailto:benjamin.eckhardt@stud.uni-goettingen.de))
 #### for the Spring 2023 "Datathinking in the Era of ChatGPT" lecture by Jaan Altosaar @ University of Tartu
 Editors: GPT-4, Copilot
 
